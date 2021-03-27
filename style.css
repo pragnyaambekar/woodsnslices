@@ -1,0 +1,208 @@
+/*Google fonts*/
+* {
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.navbar {
+    background: rgb(0, 0, 0);
+}
+
+header,
+section {
+    overflow: auto;
+}
+
+header a {
+    font-family: cursive;
+    font-size: 0.9em;
+    color: white
+}
+
+header {
+    height: 740px;
+    background: aqua;
+    opacity: 0.9;
+    width: 100%;
+    background: url("84248.png") no-repeat;
+    background-position: -20rem -35rem;
+
+
+}
+
+.welcome {
+    margin: auto;
+    margin-top: 200px;
+    font-weight: 500;
+}
+
+header.nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.explore {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/*section-1*/
+.section-1 {
+    padding: 20vmin 0;
+    display: flex;
+
+
+}
+
+.section-1 img {
+    box-sizing: border-box;
+    opacity: 0.8;
+    width: 100%;
+    height: 60%;
+    border-radius: 0.2em;
+
+}
+
+
+
+.panel {
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 80px;
+    width: 80%;
+    box-shadow: 0px 25px 42px black;
+
+}
+
+.pray {
+    overflow: hidden;
+}
+
+/*section-2*/
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url("bg.jpeg");
+    background-position: -20rem -35rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover.content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 25vmin;
+
+}
+
+.cover.content>h1 {
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover.content>p {
+    font-size: 2vmin;
+    color: thistle;
+}
+
+.rect {
+    position: relative;
+    box-sizing: border-box;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 20px 0px black;
+
+}
+
+.number {
+    margin-top: -15vmin;
+}
+
+.rect h1 {
+    font-size: 5rem;
+    color: coral;
+}
+
+.rect p {
+    font-weight: bold;
+}
+
+.content p {
+
+    font-size: 2rem;
+    font-family: cursive;
+
+
+}
+
+.purchase>h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: monospace;
+}
+
+.purchase>p {
+    color: lightblue;
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchase.cards.card {
+    width: 22rem;
+    margin: 3vmin;
+    margin-bottom: 10px;
+
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.back_to_top {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/*section-3*/
+.section-3 {
+    overflow: hidden;
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: linear-gradient(aqua, purple)
+}
+
+.section-3 h1 {
+    text-align: center;
+    margin-top: 15vmin;
+}
+
+.app {
+    background: white;
+    margin-right: 20%;
+    border-radius: 2em;
+    padding: 2px;
+    margin-left: 20%;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+/*Footer*/
+footer .row {
+    padding: 5vmin;
+}
