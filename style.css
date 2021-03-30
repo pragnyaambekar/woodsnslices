@@ -1,7 +1,8 @@
-/*Google fonts*/
+
 * {
     box-sizing: border-box;
     align-content: center;
+    font-family:monospace;
 }
 
 .navbar {
@@ -14,8 +15,7 @@ section {
 }
 
 header a {
-    font-family: cursive;
-    font-size: 0.9em;
+    size: 0.9em;
     color: white
 }
 
